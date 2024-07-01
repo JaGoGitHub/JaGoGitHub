@@ -1,16 +1,11 @@
 ## Hi there 👋
 
-<!--
-**JaGoGitHub/JaGoGitHub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on Institucion Salud
-- 🌱 I’m currently learning Programcion WEB
-- 👯 I’m looking to collaborate on Sistema de Salud
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently working on Institucion Salud.
+- 🌱 I’m currently learning Programcion WEB.
+- 👯 I’m looking to collaborate on Proyectos WEB.
+- 🤔 I’m looking for help with Node.js.
+- 💬 Ask me about lenguaje de programacion favorito.
+- 📫 How to reach me: JaMeL GoNZaLeS.
+- 😄 Pronouns: El.
+- ⚡ Fun fact: None.
