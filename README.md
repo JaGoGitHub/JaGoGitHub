@@ -8,4 +8,4 @@
 - 💬 Ask me about lenguaje de programacion favorito.
 - 📫 How to reach me: JaMeL GoNZaLeS.
 - 😄 Pronouns: El.
-- ⚡ Fun fact: None.
+- ⚡ Fun fact: Aprender, Aprender, de todo.
