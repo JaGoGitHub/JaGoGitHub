@@ -1,5 +1,15 @@
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
 body {
     background-color: #cfc5c5;
     font-family: Arial, sans-serif;
     color: #333;
+}
+h3 {
+    background-color: #333;
+    color: #ffffff;
 }
