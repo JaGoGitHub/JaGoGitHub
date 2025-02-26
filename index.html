@@ -21,16 +21,22 @@
         git config --global core.autocrlf true          //true para windows, input linux o mac<br>
     </p>
     
-    <h3>COMANDOS GIT</h3>    
-    <p> git status<br>
-        git status -s      //Muestra resumido en colores<br>
-        git add "nombre de archivo"       //sin comillas separados por espacio<br>
-        git add .           //agrega todos los archivos<br>
-        git commit -m "mensaje del commit con sentido de lo q se ha hecho"<br>
-        git restore --staged "nombre del archivo   //sin comillas<br>
-        git diff --stage<br>
-        git log    //revisar el historial del repositorio<br>
-        git log --oneline <br>
+    <h3>COMANDOS BASICOS GIT</h3>    
+    <p> 
+        <b>git --version </b>//muestra la version de git instalada<br>
+        <b>git init </b>//inicializa un repositorio de git, generalmente la carpeta actual <br>
+        <b>git status </b>    // muestra el estado de las modificaciones en los archivos<br>
+        <b>git status -s </b>    //Muestra resumido en colores<br>
+        <b>git add "nombre de archivo" </b>    //sin comillas, agrega "nombre de archivo" al stage<br>
+        <b>git add . </b>     //agrega todos los archivos de la carpeta inicializada al stage<br>
+        <b>git reset "nombre de archivo" </b>    //sin comillas, quita el archivo del stage<br>
+        <b>git reset . </b>   //quita todos los archivos del stage<br>
+        <b>git restore --staged "nombre del archivo" </b>  //sin comillas<br>
+        <b>git commit -m "mensaje del commit con sentido de lo q se ha hecho" </b><br>
+        <b>git checkout -- . </b> //regresa al estado del ultimo commit realizado, aunq se hayan grabado cambios en el archivo<br>
+        <b>git diff --stage </b><br>
+        <b>git log    //revisar el historial del repositorio </b><br>
+        <b>git log --oneline </b><br>
     </p>
     <h3>COMANDOS CLONAR REPOSITORIO GITHUB</h3>    
     <p> git clone "URL del repositorio de Git, amazon, azure"<br>
@@ -39,6 +45,14 @@
 </body>
 <hr>
 <footer>
+    <h4>Notas</h4>
+    <p><b>Git restore </b>se puede usar para restaurar archivos en el árbol de trabajo o área de 
+        preparación a un estado anterior. <b>Git reset </b>se puede usar para volver a un commit concreto, 
+        descartando todos los commits realizados después de ese. </p>
+    <p><b>Git restore </b>apareció por primera vez en agosto de 2019, en Git 2.23. Git reset ha 
+        estado en Git desde antes de 2005. </p>
+    <p>Antes de utilizar <b>git reset</b>, es importante tener en cuenta el tipo de cambios que 
+        piensas hacer. </p>
     <a href = "https://www.google.com"target="_blank">Ir a Google</a>
 </footer>
 </html>
