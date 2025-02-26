@@ -1,5 +1,6 @@
 ## Hi there 👋
-PRUEBA DE COMANDOS DE GITHUB, realizada de VSCode
+PRUEBA DE COMANDOS DE GITHUB, realizada de VSCode y
+testeada hasta github
 
 - 🔭 I’m currently working on Institucion Salud.
 - 🌱 I’m currently learning Programcion WEB.
