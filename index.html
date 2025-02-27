@@ -29,12 +29,13 @@
         <b>git status -s </b>    //Muestra resumido en colores<br>
         <b>git add "nombre de archivo" </b>    //sin comillas, agrega "nombre de archivo" al stage<br>
         <b>git add . </b>     //agrega todos los archivos de la carpeta inicializada al stage<br>
-        <b>git reset "nombre de archivo" </b>    //sin comillas, quita el archivo del stage<br>
+        <b>git reset "nombre de archivo" </b>    //sin comillas, quita el "nombre de archivo" del stage<br>
         <b>git reset . </b>   //quita todos los archivos del stage<br>
         <b>git restore --staged "nombre del archivo" </b>  //sin comillas<br>
         <b>git commit -m "mensaje del commit con sentido de lo q se ha hecho" </b><br>
         <b>git commit --amend </b> //Actualiza el mensaje del ultimo commit<br>
-        <b>git checkout -- . </b> //regresa al estado del ultimo commit realizado, aunq se hayan grabado cambios en el archivo<br>
+        <b>git checkout </b> //revisa que cambios o eliminaciones hay desde el ultimo commit
+        <b>git checkout -- . </b> //regresa al estado del ultimo commit realizado, aunq se hayan grabado cambios o borrado el archivo<br>
         <b>git diff --stage </b><br>
         <b>git log    //revisar el historial del repositorio </b><br>
         <b>git log --oneline </b><br>
@@ -52,7 +53,7 @@
         preparación a un estado anterior. <b>Git reset </b>se puede usar para volver a un commit concreto, 
         descartando todos los commits realizados después de ese.  <b>git restore </b>restablece el archivo a su 
         contenido anterior, perdiendo los cambios que realizaras. <b>git reset </b>en su lugar, lo quita de la 
-        zona de preparación del próximo commit</p>
+        zona de preparación (stage) del próximo commit</p>
     <p><b>Git restore </b>apareció por primera vez en agosto de 2019, en Git 2.23. Git reset ha 
         estado en Git desde antes de 2005. </p>
     <p>Antes de utilizar <b>git reset</b>, es importante tener en cuenta el tipo de cambios que 
