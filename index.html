@@ -33,10 +33,12 @@
         <b>git reset . </b>   //quita todos los archivos del stage<br>
         <b>git restore --staged "nombre del archivo" </b>  //sin comillas<br>
         <b>git commit -m "mensaje del commit con sentido de lo q se ha hecho" </b><br>
+        <b>git commit --amend </b> //Actualiza el mensaje del ultimo commit<br>
         <b>git checkout -- . </b> //regresa al estado del ultimo commit realizado, aunq se hayan grabado cambios en el archivo<br>
         <b>git diff --stage </b><br>
         <b>git log    //revisar el historial del repositorio </b><br>
         <b>git log --oneline </b><br>
+        <b>git branch </b> //muestra las ramas existentes y en cual se esta trabajando<br>
     </p>
     <h3>COMANDOS CLONAR REPOSITORIO GITHUB</h3>    
     <p> git clone "URL del repositorio de Git, amazon, azure"<br>
@@ -48,7 +50,9 @@
     <h4>Notas</h4>
     <p><b>Git restore </b>se puede usar para restaurar archivos en el árbol de trabajo o área de 
         preparación a un estado anterior. <b>Git reset </b>se puede usar para volver a un commit concreto, 
-        descartando todos los commits realizados después de ese. </p>
+        descartando todos los commits realizados después de ese.  <b>git restore </b>restablece el archivo a su 
+        contenido anterior, perdiendo los cambios que realizaras. <b>git reset </b>en su lugar, lo quita de la 
+        zona de preparación del próximo commit</p>
     <p><b>Git restore </b>apareció por primera vez en agosto de 2019, en Git 2.23. Git reset ha 
         estado en Git desde antes de 2005. </p>
     <p>Antes de utilizar <b>git reset</b>, es importante tener en cuenta el tipo de cambios que 
